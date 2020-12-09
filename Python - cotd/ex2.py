@@ -1,8 +1,8 @@
-def up_low(s):
+def up_low(words):
     a = {"upper":0, "lower":0}
     
     
-    for char in s:
+    for char in words:
         if char.isupper():     # isupper checks for every upper case letter
             a["upper"] += 1
         elif char.islower():   # islower check for every lower case letter
